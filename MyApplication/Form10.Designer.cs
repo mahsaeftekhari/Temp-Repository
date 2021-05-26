@@ -28,24 +28,32 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.SuspendLayout();
+            this.MyLabel = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // MyLabel
+            // 
+            this.MyLabel.AutoSize = true;
+            this.MyLabel.Location = new System.Drawing.Point(44, 43);
+            this.MyLabel.Name = "MyLabel";
+            this.MyLabel.Size = new System.Drawing.Size(98, 13);
+            this.MyLabel.TabIndex = 0;
+            this.MyLabel.Text = "Mahsa Eftekhari";
+            // 
+            // Form10
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(484, 461);
+            this.Controls.Add(this.MyLabel);
+            this.Location = new System.Drawing.Point(0, 0);
+            this.Name = "Form10";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
-			this.AutoScaleDimensions =
-				new System.Drawing.SizeF(7F, 13F);
-
-			this.AutoScaleMode =
-				System.Windows.Forms.AutoScaleMode.Font;
-
-			this.ClientSize =
-				new System.Drawing.Size(484, 461);
-
-			this.Location =
-				new System.Drawing.Point(0, 0);
-
-			this.Name = "Form10";
-
-			this.ResumeLayout(false);
 		}
-		#endregion /Windows Form Designer generated code
-	}
+        #endregion /Windows Form Designer generated code
+
+        private System.Windows.Forms.Label MyLabel;
+    }
 }
