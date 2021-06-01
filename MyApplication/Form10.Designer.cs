@@ -28,32 +28,32 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-            this.myLabel = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-            // 
-            // myLabel
-            // 
-            this.myLabel.AutoSize = true;
-            this.myLabel.Location = new System.Drawing.Point(12, 9);
-            this.myLabel.Name = "myLabel";
-            this.myLabel.Size = new System.Drawing.Size(98, 13);
-            this.myLabel.TabIndex = 0;
-            this.myLabel.Text = "Mahsa Eftekhari";
-            // 
-            // Form10
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 461);
-            this.Controls.Add(this.myLabel);
-            this.Location = new System.Drawing.Point(0, 0);
-            this.Name = "Form10";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+			this.myLabel = new System.Windows.Forms.Label();
+            		this.SuspendLayout();
+            		// 
+	        	// myLabel
+        		// 
+            		this.myLabel.AutoSize = true;
+            		this.myLabel.Location = new System.Drawing.Point(12, 9);
+           		this.myLabel.Name = "myLabel";
+        		this.myLabel.Size = new System.Drawing.Size(98, 13);
+            		this.myLabel.TabIndex = 0;
+            		this.myLabel.Text = "Mahsa Eftekhari";
+            		// 
+            		// Form10
+            		// 
+            		this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            		this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            		this.ClientSize = new System.Drawing.Size(484, 461);
+            		this.Controls.Add(this.myLabel);
+            		this.Location = new System.Drawing.Point(0, 0);
+            		this.Name = "Form10";
+        		this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
-        #endregion /Windows Form Designer generated code
+        	#endregion /Windows Form Designer generated code
 
-        private System.Windows.Forms.Label myLabel;
+		private System.Windows.Forms.Label myLabel;
     }
 }
